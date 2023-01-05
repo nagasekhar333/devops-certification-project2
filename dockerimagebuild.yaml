@@ -12,7 +12,7 @@
     command: docker tag project2:latest sekharmanduri/staragileproject2:latest
     
   - name: docker hub login
-    command: docker login --username nagasekharmanduri0@gmail.com --password Amazon@123
+    command: docker login --username sekharmanduri --password Amazon@123
 
   - name: push image to docker hub
     command: docker push sekharmanduri/staragileproject2:latest
